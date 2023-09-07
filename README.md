@@ -5,8 +5,8 @@
 
 ---
 - `IA3방식`으로 Lamma2를 fine tuning한 영어 LLM모델
-  
-- A3Duck 은 IA3 방식으로 Lamma2를 fine tuning 하였으며, Platypus의 코드를 변형하고, 허깅페이스 라이브러리를 수정하여 적용하였습니다. 
+
+- A3Duck 은 IA3 방식으로 Lamma2를 fine tuning 하였으며, Platypus의 코드를 변형하고, 허깅페이스 라이브러리를 수정하여 적용하였습니다. 
   - 참조한 코드는 Open-Orca의 [깃허브](https://github.com/arielnlee/Platypus)를 참조바랍니다. 
 
 - 본 연구는 (주)마커와 (주)미디어그룹사람과숲의 오픈소스 LLM 연구 컨소시엄에서 진행되었습니다.
