@@ -1,11 +1,7 @@
 <p align="center" width="100%">
 </p>
 
-# A3Duck 🐐
-
-<p align="center" width="100%">
-<img src="sources/IA3_LORA.png" alt="IA3 icon" style="width: 1073px; height:477px; display: block; margin: auto; border-radius: 50%;">
-</p>
+# A3Duck 🐥
 
 ---
 - `IA3방식`으로 Lamma2를 fine tuning한 영어 LLM모델
