@@ -5,9 +5,7 @@
 
 ---
 - `IA3방식`으로 Lamma2를 fine tuning한 영어 LLM모델
-
-- 요즘 LLM은 대부분 LoRA방식으로 훈련이 진행되고 있으며, 최근은 양자화 방식을 도입한 QLORA방식으로 많이 훈련되고 있습니다.
-
+  
 - A3Duck 은 IA3 방식으로 Lamma2를 fine tuning 하였으며, Platypus의 코드를 변형하고, 허깅페이스 라이브러리를 수정하여 적용하였습니다. 
   - 참조한 코드는 Open-Orca의 [깃허브](https://github.com/arielnlee/Platypus)를 참조바랍니다. 
 
