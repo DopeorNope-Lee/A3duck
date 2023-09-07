@@ -12,15 +12,15 @@
 
 - 요즘 LLM은 대부분 LoRA방식으로 훈련이 진행되고 있으며, 최근은 양자화 방식을 도입한 QLORA방식으로 많이 훈련되고 있습니다.
 
-- KOAT base모델인 KoAlpaca 또한, QLORA방식으로 메모리를 효율적으로 활용하는 방법을 소개하고 있습니다.
-  - 자세한 내용은 Beomi 님의 깃허브를 참조바랍니다. (https://github.com/Beomi/KoAlpaca)
+- A3Duck 은 IA3 방식으로 Lamma2를 fine tuning 하였으며, Platypus의 코드를 변형하고, 허깅페이스 라이브러리를 수정하여 적용하였습니다. 
+  - 참조한 코드는 Open-Orca의 [깃허브](https://github.com/arielnlee/Platypus)를 참조바랍니다. 
 
 - 본 연구는 (주)마커와 (주)미디어그룹사람과숲의 오픈소스 LLM 연구 컨소시엄에서 진행되었습니다.
 
 - 빠른 훈련방식과 더 효율적인 방법론으로 소개된 IA3(T-Few) 방식으로 fine-tuning진행하여,
 더 적은 파라미터로 더 효율적인 훈련방식을 도입하였습니다.
 
-- **`K(G)OAT5.8b` 는 더 적은 파라미터로도 polyglot5.8b와 ko-Alpaca5.8b를 Fewshot평가에서 프롬프트1의 경우0.712, 프롬프트2의 경우 0.810 의 성능을 보여주었습니다.**
+- **`A3 Duck` 는 더 적은 파라미터로, MMLU (5-shot)	평가에서 0.562, ARC (25-shot) 평가에서 0.55, HellaSwag (10-shot)평갸에서 0.622, TruthfulQA (0-shot) 0.259 성능을 보여주었습니다.**
 
 
   - PEFT에서는 현재 IA3방식을 implement할 수 있으나, 주의할점은 Casual LM task에서는 라이브러리 코드를 수정해야 합니다.
@@ -32,7 +32,7 @@
 
   - 질문사항은 이슈에 남겨주시면 답변하도록 하겠습니다!
 
-  - Hugging Face에 업로드한 모델은 [여기](https://huggingface.co/DopeorNope/KOAT-5.8b) 서 확인 바랍니다..!
+  - Hugging Face에 업로드한 모델은 [여기](https://huggingface.co/DopeorNope/A3_duck)서 확인 바랍니다..!
     
   - 현재 Huggingface에 모델가중치를 업로드하였고, 로드하는 방식또한 확인하실 수 있게 코드를 업로드 하였습니다.
 
